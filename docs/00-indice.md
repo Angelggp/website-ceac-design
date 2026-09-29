@@ -32,11 +32,11 @@
 
 ## Estado actual del diseño (2026-09-29)
 
-**La versión vigente es la v7.** Todas sus páginas están en
-`ceac-modern.pen` con nombres que empiezan por `CEAC v7 - …`, en desktop y
-mobile. Las versiones v1 a v6 y los bocetos anteriores (`CEAC Home
-Modern`, `CEAC Actual`, `CEAC HomePage`, `About us seccion`, `CEAC —
-Inicio`) quedan solo como historial.
+**La versión vigente es la v7.** En la rama `main`, `ceac-modern.pen`
+contiene solo sus páginas (nombres `CEAC v7 - …`), en desktop y mobile.
+Las versiones v1 a v6 y los bocetos anteriores (`CEAC Home Modern`, `CEAC
+Actual`, `CEAC HomePage`, `About us seccion`, `CEAC — Inicio`) se
+conservan en la rama `historial-versiones`.
 
 Qué hay en cada versión, qué se decidió y qué falta:
 [05-versiones-del-diseno.md](05-versiones-del-diseno.md).

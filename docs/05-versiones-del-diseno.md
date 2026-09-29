@@ -1,14 +1,23 @@
 # 5. Versiones del diseño
 
-Registro de todas las propuestas que hay en `ceac-modern.pen`, qué contiene
-cada una y por qué se pasó a la siguiente. **La versión vigente es la v7**:
-las anteriores se conservan solo como historial y no deben usarse como
-referencia para desarrollar.
+Registro de todas las propuestas del diseño, qué contiene cada una y por
+qué se pasó a la siguiente. **La versión vigente es la v7.**
 
-Los frames están ordenados en el lienzo de arriba hacia abajo (v1 arriba,
-v7 abajo). Dentro de la v7, las páginas van de izquierda a derecha.
+**Dónde está cada cosa:**
+
+- **Rama `main`:** `ceac-modern.pen` contiene **solo la v7**, desde la
+  esquina superior izquierda del lienzo. Las páginas desktop van en una
+  fila, de izquierda a derecha; las mobile de Proyectos, Detalle de
+  proyecto y Servicios están debajo de su versión desktop.
+- **Rama `historial-versiones`:** conserva el `ceac-modern.pen` completo,
+  con los bocetos previos y las versiones v1 a v7, por si hace falta
+  consultarlas o recuperar algo. Para verlo: `git checkout
+  historial-versiones` (y volver con `git checkout main`).
 
 ## Resumen
+
+Los frames de v1 a v6 y los bocetos previos solo existen en la rama
+`historial-versiones`.
 
 | Versión | Frames | Concepto | Estado |
 |---|---|---|---|
@@ -91,8 +100,9 @@ sintiéndose recargada.
 
 ### Frames de la v7
 
-Desktop en la fila principal; las mobile de Proyectos, Detalle de
-proyecto y Servicios están debajo de su versión desktop.
+Son los únicos frames del `ceac-modern.pen` en `main`. Desktop en la fila
+principal; las mobile de Proyectos, Detalle de proyecto y Servicios están
+debajo de su versión desktop.
 
 | Página | Desktop | Mobile |
 |---|---|---|
@@ -126,7 +136,7 @@ El detalle de cada página está en [`paginas/`](paginas/).
   centro (hoy son de stock, salvo el edificio y las insignias de
   reconocimientos).
 - **Opcional:** convertir header, footer, botones y tarjetas en componentes
-  reutilizables de Pencil y archivar las versiones v1 a v6.
+  reutilizables de Pencil.
 
 ## Notas para desarrollo
 
