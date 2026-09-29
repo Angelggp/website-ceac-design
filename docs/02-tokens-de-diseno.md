@@ -6,9 +6,70 @@ propias, todas consumen estos tokens. Ver la regla de oro en el
 
 > **Fuente:** esta tabla ya no es solo la plantilla teórica — está
 > verificada contra el boceto real `CEAC Home Modern` dentro de
-> `ceac-modern.pen` (el frame que sí respeta la identidad de marca; ver nota
-> de diagnóstico en [`00-indice.md`](00-indice.md#nota-de-diseño-actual)).
+> `ceac-modern.pen` (el frame que sí respeta la identidad de marca; ver
+> [`05-versiones-del-diseno.md`](05-versiones-del-diseno.md)).
 > Versión ejecutable en código: [`tokens.css`](tokens.css).
+
+## Tokens que usa la v7 (vigente)
+
+> **Actualización (2026-09-29):** la v7 del diseño (ver
+> [05-versiones-del-diseno.md](05-versiones-del-diseno.md)) usa las
+> variables siguientes, definidas en `ceac-modern.pen`. Donde choquen con
+> las tablas de más abajo (que describen el boceto `CEAC Home Modern`),
+> manda esta sección. `tokens.css` todavía refleja el boceto anterior y hay
+> que actualizarlo al pasar a código.
+
+### Colores
+
+| Variable | Valor | Uso en la v7 |
+|---|---|---|
+| `deep` | `#083B66` | Títulos, textos fuertes, barra superior, botones oscuros |
+| `blue` | `#0A6FCC` | Azul institucional: botones principales, enlaces, etiquetas, íconos |
+| `ink-500` | `#2A6FA6` | Texto de cuerpo y descripciones |
+| `sky` | `#DCEEFA` | Fondo de etiquetas y de círculos de íconos |
+| `foam` | `#F4FAFC` | Fondo de secciones alternas y de tarjetas |
+| `mist` | `#9CC9EA` | Detalles suaves sobre fondos oscuros |
+| `abyss` | `#062B4A` | Inicio del degradado del footer |
+| `leaf` | `#1A9D61` | Verde del logo, acentos |
+| `leaf-dark` | `#12804A` | Verde de marca en degradados y chips |
+| `moss` | `#0F4C3A` | Verde oscuro de degradados |
+| `mint` | `#E4F3EA` | Fondo verde muy claro |
+| `white` | `#FFFFFF` | Fondo general |
+
+Degradados recurrentes:
+
+- **Velo de encabezados:** `#083B66` → `#0B5D6D` → `#12804A` (azul a
+  verde, en diagonal, con transparencia sobre la foto).
+- **Franjas azules** (servicios, procesos, llamadas a la acción):
+  `#0A6FCC` → `#083B66`, de arriba abajo.
+- **Footer:** `#062B4A` → `#0B3B2E`.
+
+Bordes de tarjetas y separadores: `#D2E3EF`; líneas internas: `#E5EEF5`.
+Otras variables del archivo (`forest`, `olive`, `sea`, `beige`, `sand`,
+`cream`, `navy`, `teal`, `abyss-2`) pertenecen a versiones anteriores y la
+v7 no las usa.
+
+### Tipografía
+
+| Uso | Fuente |
+|---|---|
+| Títulos, nombres, cifras grandes | **Bricolage Grotesque** (700) |
+| Texto de cuerpo, menú, botones | **Geist** |
+| Etiquetas en mayúsculas (eyebrows) y fechas | **IBM Plex Mono** |
+| Marca "CEAC" en el header | Funnel Sans (800), en negro |
+| Frase "…un puente al desarrollo sostenible" (hero) | Caveat |
+
+### Medidas
+
+- Bordes redondeados: botones y etiquetas 999 px (pastilla); tarjetas 16 a
+  20 px; fotos 14 a 24 px.
+- Márgenes laterales: 64 px en desktop, 20 px en mobile.
+- Anchos de lienzo: 1440 px (desktop) y 390 px (mobile).
+
+---
+
+*Lo que sigue documenta los tokens del boceto anterior (`CEAC Home
+Modern`) y se conserva como referencia.*
 
 ## Colores — resumen semántico
 
