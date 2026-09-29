@@ -112971,6 +112971,2005 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "b5feQe",
+      "x": 2720,
+      "y": 52700,
+      "name": "CEAC v7 - Proyectos (Mobile)",
+      "clip": true,
+      "width": 390,
+      "fill": "$white",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "NBYa8",
+          "name": "Barra superior",
+          "width": "fill_container",
+          "height": 34,
+          "fill": "$deep",
+          "padding": [
+            0,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "QBtQX",
+              "name": "Correo",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "yjcdA",
+                  "name": "Icono",
+                  "width": 13,
+                  "height": 13,
+                  "icon": "mail",
+                  "library": "lucide",
+                  "fill": "#BFE0F7"
+                },
+                {
+                  "type": "text",
+                  "id": "EDXpQ",
+                  "name": "ceac@ceac.cu",
+                  "fill": "#DCEEFA",
+                  "content": "ceac@ceac.cu",
+                  "fontFamily": "Geist",
+                  "fontSize": 11.5,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Uaon6",
+              "name": "Redes",
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "o6xVLW",
+                  "name": "facebook",
+                  "width": 14,
+                  "height": 14,
+                  "icon": "facebook",
+                  "library": "lucide",
+                  "fill": "#DCEEFA"
+                },
+                {
+                  "type": "icon",
+                  "id": "CTcoU",
+                  "name": "instagram",
+                  "width": 14,
+                  "height": 14,
+                  "icon": "instagram",
+                  "library": "lucide",
+                  "fill": "#DCEEFA"
+                },
+                {
+                  "type": "icon",
+                  "id": "m3yiZV",
+                  "name": "youtube",
+                  "width": 14,
+                  "height": 14,
+                  "icon": "youtube",
+                  "library": "lucide",
+                  "fill": "#DCEEFA"
+                },
+                {
+                  "type": "path",
+                  "id": "oF0q7",
+                  "name": "X",
+                  "geometry": "M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.657l-5.214-6.817-5.966 6.817h-3.31l7.73-8.835-8.156-10.665h6.826l4.713 6.231z m-1.161 17.52h1.833l-11.832-15.644h-1.967z",
+                  "viewBox": [
+                    0,
+                    0,
+                    24,
+                    24
+                  ],
+                  "fill": "#DCEEFA",
+                  "width": 12,
+                  "height": 12
+                },
+                {
+                  "type": "path",
+                  "id": "Oj1hB",
+                  "name": "Telegram",
+                  "geometry": "M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12z m5.894 8.221l-1.97 9.28c-0.145 0.658-0.537 0.818-1.084 0.508l-3-2.21-1.446 1.394c-0.14 0.18-0.357 0.295-0.6 0.295-0.002 0-0.003 0-0.005 0l0.213-3.054 5.56-5.022c0.24-0.213-0.054-0.334-0.373-0.121l-6.869 4.326-2.96-0.924c-0.64-0.203-0.658-0.64 0.135-0.954l11.566-4.458c0.538-0.196 1.006 0.128 0.832 0.941z",
+                  "viewBox": [
+                    0,
+                    0,
+                    24,
+                    24
+                  ],
+                  "fill": "#DCEEFA",
+                  "width": 14,
+                  "height": 14
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZxhHc",
+          "name": "Barra principal",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "$white",
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#0A355214",
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "blur": 14
+          },
+          "padding": [
+            0,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "CQq8c",
+              "name": "Brand",
+              "width": 250,
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jWZrf",
+                  "name": "Logo CEAC 1",
+                  "clip": true,
+                  "width": 48,
+                  "height": 49,
+                  "fill": {
+                    "type": "color",
+                    "color": "#ffffffff",
+                    "enabled": false
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "group",
+                      "id": "NRwSd",
+                      "x": 0,
+                      "y": 1,
+                      "name": "#92d1e7ff",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "o5pm4",
+                          "x": 0,
+                          "y": 0,
+                          "name": "Vector",
+                          "geometry": "M0.08 0.03c173.7-0.02 347.40004 0.18 521.10005-0.03 6.75 22.2 14.17994 44.2 21.04993 66.37 7.59003 21.98 14.45996 44.20001 21.97998 66.20001 16.69 49.89999 34.02002 99.58999 52.14002 148.98999 0.58001 1.89001 1.28002 3.75 2.01001 5.58999 17.59002 49.25 36.19995 98.13004 54.58996 147.09003 21.38001 55.20001 42.27002 110.60996 65.73999 164.95993 6.65003 15.96997 13.65003 31.79999 20.78003 47.57001 9.17999 21.84003 19.4101 43.21997 29.33008 64.73999 3.40002 6.96997 6.59991 14.06 9.29993 21.33002-33.58002-33.02002-69.58997-63.59998-108.37-90.31-59.77002-42.29999-126.15002-74.87-195.28-98.77997-46.83999-15.70001-95.24997-26.39001-144.07998-33.64999-9.53-1.26999-19.10999-1.96-28.60999-3.43-11.22-0.80999-22.41998-1.99002-33.64999-2.46002-7.59-1.20999-15.32004 0.22003-22.87003-1.26996-12.36999-0.07-24.73997-0.12002-37.09998-0.04004-6.19 1.31-12.72001-0.65997-18.77001 1.28003-5.42 0.54001-10.9-0.79004-16.26999 0.39997-32.19001 2.1-64.24001 6.42996-95.86001 12.93997-24.5 4.92999-48.83 10.73999-72.77 17.95001-8.26 2.06-16.23 5.13001-24.47 7.28003 0.12-180.91 0.02-361.81 0.08-542.72z",
+                          "fill": "#92d1e7ff",
+                          "width": 38.87867801396635,
+                          "height": 36.71560430512842
+                        }
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "id": "GwJkC",
+                      "x": 28.218580576440317,
+                      "y": 1.0531656927923905,
+                      "name": "#3a9a30ff",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "jNdkS",
+                          "x": 0,
+                          "y": 0,
+                          "name": "Vector",
+                          "geometry": "M0 0.09882c135.35001-0.21 270.69003-0.02 406.03003-0.02 0.04999 252.99999-0.01004 505.99998 0.02997 759.00999-0.07999 76.52996 0.12005 153.07-0.07996 229.60003-3.81-6.01001-6.39004-12.68005-9.93005-18.84002-13.26001-26.09003-26.65998-52.12-39.52997-78.40998-10.89002-20.67999-21.10004-41.71002-31.28003-62.75-26.28-52.86999-50.63-106.67004-74.38-160.71002-11.55001-27.01001-23.94996-53.64001-35.07996-80.83002-24.69-58.10998-48.16002-116.72998-70.15003-175.90997-10.52999-27.64999-20.84996-55.36999-30.77996-83.25-2.91001-8.85001-6.69004-17.38998-9.42005-26.31-15.19-41.33001-29.71998-82.90002-44.85998-124.25001-16.41-46.14-32.26997-92.46-48.15998-138.79-3.92-12.91-8.47003-25.63-12.41003-38.54z",
+                          "fill": "#3a9a30ff",
+                          "width": 19.781419423559708,
+                          "height": 49.5337461337426
+                        }
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "id": "l5Zexq",
+                      "x": 0.0014644162632464486,
+                      "y": 28.13079591232963,
+                      "name": "#0167aeff",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "C56tas",
+                          "x": 0,
+                          "y": 0,
+                          "name": "Vector",
+                          "geometry": "M222.21985 0.63692c9.25999-0.95 18.58999-0.59994 27.86999-0.43995 10 1.4 20.16999-0.13003 30.12 1.65998 10.72-0.38 21.29001 1.46997 31.99002 1.71997 17.64999 2.45 35.42999 4.10005 52.97998 7.30005 36.48999 5.91 72.45001 14.9 107.65002 26.19 37.88001 11.98 74.36002 28.06996 109.54001 46.45996 53.5 28.65 103.53003 63.73003 148.70002 104.27002 30.65997 27.64 59.22998 57.59001 85.53997 89.40001 24.41999 29.79999 46.57001 61.40997 67.06 94.01996 20.15003 32.94 38.94 66.77005 55.32001 101.75006-2.23999 0.17999-4.38996 0.85989-6.58997 1.27991-105.04999-0.29001-210.11999-0.00998-315.17999-0.10999-204.98999 0.04001-409.97005-0.04996-614.96006 0.04004 291.28001 0.04001 582.56998 0.01001 873.85001 0.02002 21.35999 0.09 42.73004-0.28003 64.08002 0.32996l-0.29999 1.90002c-221.91003-0.17001-443.83005-0.00995-665.74005-0.07996-91.38 0.07001-182.75999-0.06005-274.13999 0.05994 0.02-144.61999-0.03-289.22996 0-433.84996 42.25-13.74 85.07999-26.21999 129.04999-33.10999 24.87-3.84 49.89002-7.17002 75.04001-8.15002 5.94001-1.8 12.08001 0.04997 18.12-0.66003z",
+                          "fill": "#0167aeff",
+                          "width": 45.80044369449732,
+                          "height": 23.86920408767112
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JKGPK",
+                  "name": "BrandText",
+                  "width": "fill_container",
+                  "height": 63,
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iFrj1",
+                      "name": "Text",
+                      "fill": "#111111",
+                      "textGrowth": "fixed-width-height",
+                      "width": 109,
+                      "height": 28,
+                      "content": "CEAC",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 24,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "F8B1rw",
+                      "name": "Nombre completo",
+                      "fill": "#4A4A4A",
+                      "textGrowth": "fixed-width-height",
+                      "width": 170,
+                      "height": 24,
+                      "content": "Centro de Estudios \nAmbientales de Cienfuegos",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Geist",
+                      "fontSize": 10.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RR0dT",
+              "name": "Botón menú",
+              "width": 46,
+              "height": 46,
+              "fill": "$sky",
+              "cornerRadius": 999,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "v4orI",
+                  "name": "Menú",
+                  "width": 22,
+                  "height": 22,
+                  "icon": "menu",
+                  "library": "lucide",
+                  "fill": "$deep"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AhNCK",
+          "name": "Encabezado de página",
+          "clip": true,
+          "width": "fill_container",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1768063121787-f317bb73de19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTA2Mjc4NzZ8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          },
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            40,
+            20,
+            72,
+            20
+          ],
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "p9lHk",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "Velo",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 200,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#083B66F2",
+                    "position": 0
+                  },
+                  {
+                    "color": "#0B5D6DD9",
+                    "position": 0.6
+                  },
+                  {
+                    "color": "#12804AB3",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 390,
+              "height": 281
+            },
+            {
+              "type": "frame",
+              "id": "tUPGB",
+              "name": "Migas",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "a0Nnb",
+                  "name": "Inicio",
+                  "fill": "#BFE0F7",
+                  "content": "Inicio",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "icon",
+                  "id": "q4Jr3",
+                  "name": "Sep",
+                  "width": 12,
+                  "height": 12,
+                  "icon": "chevron-right",
+                  "library": "lucide",
+                  "fill": "#BFE0F7"
+                },
+                {
+                  "type": "text",
+                  "id": "NtmfT",
+                  "name": "Proyectos",
+                  "fill": "$white",
+                  "content": "Proyectos",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "H4r84",
+              "name": "Título",
+              "fill": "$white",
+              "content": "Proyectos",
+              "lineHeight": 1,
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": 46,
+              "fontWeight": "700",
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "lHbqW",
+              "name": "Investigación aplicada a",
+              "fill": "#DCEEFA",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Investigación aplicada a los problemas ambientales del territorio, del país y de la región.",
+              "lineHeight": 1.55,
+              "fontFamily": "Geist",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "path",
+              "id": "U9sfk",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 241,
+              "name": "Ola",
+              "geometry": "M0 22c65-22 130 18 195 0s130-22 195 0v18h-390z",
+              "viewBox": [
+                0,
+                0,
+                390,
+                40
+              ],
+              "fill": "$white",
+              "width": 390,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CsYMw",
+          "name": "Proyectos territoriales",
+          "width": "fill_container",
+          "fill": "$white",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            40,
+            0,
+            44,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Hqvo8",
+              "name": "Encabezado",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                0,
+                20,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "l9TV26",
+                  "name": "Eyebrow",
+                  "fill": "$blue",
+                  "content": "TERRITORIALES",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 1.8
+                },
+                {
+                  "type": "text",
+                  "id": "j238Iz",
+                  "name": "Título sección",
+                  "fill": "$deep",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Proyectos territoriales",
+                  "lineHeight": 1.05,
+                  "fontFamily": "Bricolage Grotesque",
+                  "fontSize": 32,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.7
+                },
+                {
+                  "type": "text",
+                  "id": "iIA4Z",
+                  "name": "En Cienfuegos y su bahía",
+                  "fill": "$ink-500",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "En Cienfuegos y su bahía, junto a comunidades e instituciones locales.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Geist",
+                  "fontSize": 14.5,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "T8kFD7",
+              "name": "Riel",
+              "clip": true,
+              "width": "fill_container",
+              "height": 350,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "UfCTC",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Tarjetas",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "q5Q8QU",
+                      "name": "Gestión Integrada de Zonas Costeras",
+                      "width": 270,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "T0w5FJ",
+                          "name": "Foto",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 190,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1788929894480-a5cc2cea7091?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTA2Mjc5MDN8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "B3saG",
+                              "x": 12,
+                              "y": 12,
+                              "name": "Estado",
+                              "fill": "$white",
+                              "cornerRadius": 999,
+                              "gap": 6,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "Vn1gd",
+                                  "name": "Punto",
+                                  "fill": "$blue",
+                                  "width": 7,
+                                  "height": 7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "NsEoO",
+                                  "name": "Activo",
+                                  "fill": "$deep",
+                                  "content": "Activo",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "oiMI3",
+                          "name": "Gestión Integrada de Zon",
+                          "fill": "$deep",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Gestión Integrada de Zonas Costeras",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rupcP",
+                          "name": "Ver proyecto  →",
+                          "fill": "$blue",
+                          "content": "Ver proyecto  →",
+                          "fontFamily": "Geist",
+                          "fontSize": 14.5,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "i3yJCF",
+                      "name": "Calidad del agua de la bahía",
+                      "width": 270,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "j18YIG",
+                          "name": "Foto",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 190,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1584738766241-e70b1cafbe26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTA2Mjc5MDN8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "G7Ooa",
+                              "x": 12,
+                              "y": 12,
+                              "name": "Estado",
+                              "fill": "$white",
+                              "cornerRadius": 999,
+                              "gap": 6,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "IONXi",
+                                  "name": "Punto",
+                                  "fill": "$blue",
+                                  "width": 7,
+                                  "height": 7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Ocl3t",
+                                  "name": "Activo",
+                                  "fill": "$deep",
+                                  "content": "Activo",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "V5HDmS",
+                          "name": "Calidad del agua de la b",
+                          "fill": "$deep",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Calidad del agua de la bahía",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qiA3G",
+                          "name": "Ver proyecto  →",
+                          "fill": "$blue",
+                          "content": "Ver proyecto  →",
+                          "fontFamily": "Geist",
+                          "fontSize": 14.5,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SoPwv",
+                      "name": "Restauración de manglares",
+                      "width": 270,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "p5jwA",
+                          "name": "Foto",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 190,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1746481594876-33bc298e8f97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTA2Mjc5MDN8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "hcatt",
+                              "x": 12,
+                              "y": 12,
+                              "name": "Estado",
+                              "fill": "$white",
+                              "cornerRadius": 999,
+                              "gap": 6,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "qfI3u",
+                                  "name": "Punto",
+                                  "fill": "#9AA9B5",
+                                  "width": 7,
+                                  "height": 7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Sk5ui",
+                                  "name": "Concluido",
+                                  "fill": "$deep",
+                                  "content": "Concluido",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "O1kryR",
+                          "name": "Restauración de manglare",
+                          "fill": "$deep",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Restauración de manglares",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "luULU",
+                          "name": "Ver proyecto  →",
+                          "fill": "$blue",
+                          "content": "Ver proyecto  →",
+                          "fontFamily": "Geist",
+                          "fontSize": 14.5,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "G6SMB3",
+          "name": "Proyectos nacionales",
+          "width": "fill_container",
+          "fill": "$foam",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            40,
+            0,
+            44,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "SRvMh",
+              "name": "Encabezado",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                0,
+                20,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TwJ5T",
+                  "name": "Eyebrow",
+                  "fill": "$blue",
+                  "content": "NACIONALES",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 1.8
+                },
+                {
+                  "type": "text",
+                  "id": "PmL6V",
+                  "name": "Título sección",
+                  "fill": "$deep",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Proyectos nacionales",
+                  "lineHeight": 1.05,
+                  "fontFamily": "Bricolage Grotesque",
+                  "fontSize": 32,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.7
+                },
+                {
+                  "type": "text",
+                  "id": "vWW34",
+                  "name": "Con alcance en todo el p",
+                  "fill": "$ink-500",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Con alcance en todo el país, junto a organismos cubanos.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Geist",
+                  "fontSize": 14.5,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "c32JK",
+              "name": "Riel",
+              "clip": true,
+              "width": "fill_container",
+              "height": 350,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rXo2q",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Tarjetas",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Ma8jo",
+                      "name": "Monitoreo Ambiental Marino",
+                      "width": 270,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Ttpj5",
+                          "name": "Foto",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 190,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1650754620047-c607e36fb00e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTA2Mjc5MDN8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "v6hwy",
+                              "x": 12,
+                              "y": 12,
+                              "name": "Estado",
+                              "fill": "$white",
+                              "cornerRadius": 999,
+                              "gap": 6,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "XWmJH",
+                                  "name": "Punto",
+                                  "fill": "$blue",
+                                  "width": 7,
+                                  "height": 7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "UfLmA",
+                                  "name": "Activo",
+                                  "fill": "$deep",
+                                  "content": "Activo",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "wQhBa",
+                          "name": "Monitoreo Ambiental Mari",
+                          "fill": "$deep",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Monitoreo Ambiental Marino",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TtfsC",
+                          "name": "Ver proyecto  →",
+                          "fill": "$blue",
+                          "content": "Ver proyecto  →",
+                          "fontFamily": "Geist",
+                          "fontSize": 14.5,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pHWaV",
+                      "name": "Inventario de emisiones atmosféricas",
+                      "width": 270,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "PSwqy",
+                          "name": "Foto",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 190,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1768508099951-a7f59d5921d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTA2Mjc5MDN8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "S8GIx",
+                              "x": 12,
+                              "y": 12,
+                              "name": "Estado",
+                              "fill": "$white",
+                              "cornerRadius": 999,
+                              "gap": 6,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "an68c",
+                                  "name": "Punto",
+                                  "fill": "$blue",
+                                  "width": 7,
+                                  "height": 7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "P7nVqI",
+                                  "name": "Activo",
+                                  "fill": "$deep",
+                                  "content": "Activo",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "zFY2k",
+                          "name": "Inventario de emisiones ",
+                          "fill": "$deep",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Inventario de emisiones atmosféricas",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "eOeIK",
+                          "name": "Ver proyecto  →",
+                          "fill": "$blue",
+                          "content": "Ver proyecto  →",
+                          "fontFamily": "Geist",
+                          "fontSize": 14.5,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YsME6",
+                      "name": "Calidad de suelos agrícolas",
+                      "width": 270,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Eyu8r",
+                          "name": "Foto",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 190,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1780475997581-baae051fc754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTA2Mjc5MDN8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "R5VqV",
+                              "x": 12,
+                              "y": 12,
+                              "name": "Estado",
+                              "fill": "$white",
+                              "cornerRadius": 999,
+                              "gap": 6,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "d53xx",
+                                  "name": "Punto",
+                                  "fill": "#9AA9B5",
+                                  "width": 7,
+                                  "height": 7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "iKUBV",
+                                  "name": "Concluido",
+                                  "fill": "$deep",
+                                  "content": "Concluido",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "k70fK",
+                          "name": "Calidad de suelos agríco",
+                          "fill": "$deep",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Calidad de suelos agrícolas",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "B5Ecy",
+                          "name": "Ver proyecto  →",
+                          "fill": "$blue",
+                          "content": "Ver proyecto  →",
+                          "fontFamily": "Geist",
+                          "fontSize": 14.5,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "k66Om7",
+          "name": "Proyectos internacionales",
+          "width": "fill_container",
+          "fill": "$white",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            40,
+            0,
+            44,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ex3nO",
+              "name": "Encabezado",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                0,
+                20,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Z05KT",
+                  "name": "Eyebrow",
+                  "fill": "$blue",
+                  "content": "INTERNACIONALES",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 1.8
+                },
+                {
+                  "type": "text",
+                  "id": "N2sDj",
+                  "name": "Título sección",
+                  "fill": "$deep",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Proyectos internacionales",
+                  "lineHeight": 1.05,
+                  "fontFamily": "Bricolage Grotesque",
+                  "fontSize": 32,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.7
+                },
+                {
+                  "type": "text",
+                  "id": "ZgjW0",
+                  "name": "Cooperación con organism",
+                  "fill": "$ink-500",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Cooperación con organismos y centros de la región.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Geist",
+                  "fontSize": 14.5,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oKrjc",
+              "name": "Riel",
+              "clip": true,
+              "width": "fill_container",
+              "height": 350,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HWWb2",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Tarjetas",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "TX7PW",
+                      "name": "Cambio Climático y Adaptación",
+                      "width": 270,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "NyONY",
+                          "name": "Foto",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 190,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1705980109469-419a2ea0a181?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTA2Mjc5MDN8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "HyKoH",
+                              "x": 12,
+                              "y": 12,
+                              "name": "Estado",
+                              "fill": "$white",
+                              "cornerRadius": 999,
+                              "gap": 6,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "IYcOU",
+                                  "name": "Punto",
+                                  "fill": "$blue",
+                                  "width": 7,
+                                  "height": 7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "COCCt",
+                                  "name": "Activo",
+                                  "fill": "$deep",
+                                  "content": "Activo",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "I1gxtJ",
+                          "name": "Cambio Climático y Adapt",
+                          "fill": "$deep",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Cambio Climático y Adaptación",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xkowU",
+                          "name": "Ver proyecto  →",
+                          "fill": "$blue",
+                          "content": "Ver proyecto  →",
+                          "fontFamily": "Geist",
+                          "fontSize": 14.5,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nH9ig",
+                      "name": "Técnicas nucleares en sedimentos",
+                      "width": 270,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "LyvJl",
+                          "name": "Foto",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 190,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1706054740800-fd756de03632?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTA2Mjc5NjB8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Vt1dC",
+                              "x": 12,
+                              "y": 12,
+                              "name": "Estado",
+                              "fill": "$white",
+                              "cornerRadius": 999,
+                              "gap": 6,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "BsEc2",
+                                  "name": "Punto",
+                                  "fill": "$blue",
+                                  "width": 7,
+                                  "height": 7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "QBS83",
+                                  "name": "Activo",
+                                  "fill": "$deep",
+                                  "content": "Activo",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "ijUFs",
+                          "name": "Técnicas nucleares en se",
+                          "fill": "$deep",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Técnicas nucleares en sedimentos",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cbPTb",
+                          "name": "Ver proyecto  →",
+                          "fill": "$blue",
+                          "content": "Ver proyecto  →",
+                          "fontFamily": "Geist",
+                          "fontSize": 14.5,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QhUHl",
+                      "name": "Red regional de monitoreo costero",
+                      "width": 270,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "dyOjO",
+                          "name": "Foto",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 190,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1778679404443-6d17aca05e13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTA2Mjc5MDN8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 14,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "yUyKN",
+                              "x": 12,
+                              "y": 12,
+                              "name": "Estado",
+                              "fill": "$white",
+                              "cornerRadius": 999,
+                              "gap": 6,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "D4E5iz",
+                                  "name": "Punto",
+                                  "fill": "#9AA9B5",
+                                  "width": 7,
+                                  "height": 7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "BVsjY",
+                                  "name": "Concluido",
+                                  "fill": "$deep",
+                                  "content": "Concluido",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "o54nL8",
+                          "name": "Red regional de monitore",
+                          "fill": "$deep",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Red regional de monitoreo costero",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "f4c1Qe",
+                          "name": "Ver proyecto  →",
+                          "fill": "$blue",
+                          "content": "Ver proyecto  →",
+                          "fontFamily": "Geist",
+                          "fontSize": 14.5,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Yt19r",
+          "name": "Ola divisoria",
+          "width": "fill_container",
+          "height": 40,
+          "fill": "$white",
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "ExfG2",
+              "x": 0,
+              "y": 0,
+              "name": "Ola",
+              "geometry": "M0 20c65 20 130-20 195 0s130 20 195 0v20h-390z",
+              "viewBox": [
+                0,
+                0,
+                390,
+                40
+              ],
+              "fill": "#0A6FCC",
+              "width": 390,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "h3Wosa",
+          "name": "CTA final",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 180,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#0A6FCC",
+                "position": 0
+              },
+              {
+                "color": "#083B66",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            40,
+            20,
+            48,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "AOhLS",
+              "name": "Eyebrow",
+              "fill": "#BFE0F7",
+              "content": "COLABORA CON NOSOTROS",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 1.8
+            },
+            {
+              "type": "text",
+              "id": "VIV1t",
+              "name": "¿Tienes una idea de proy",
+              "fill": "$white",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "¿Tienes una idea de proyecto?",
+              "lineHeight": 1.1,
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": 30,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "sJY7E",
+              "name": "Trabajamos con comunidad",
+              "fill": "#DCEEFA",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Trabajamos con comunidades, instituciones y organismos en investigación aplicada.",
+              "lineHeight": 1.5,
+              "fontFamily": "Geist",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "CDeDk",
+              "name": "Botón",
+              "width": "fill_container",
+              "fill": "$white",
+              "cornerRadius": 999,
+              "padding": [
+                16,
+                30
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "H5vwuu",
+                  "name": "Escríbenos  →",
+                  "fill": "$deep",
+                  "content": "Escríbenos  →",
+                  "fontFamily": "Geist",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zMVtM",
+          "name": "Ola divisoria",
+          "width": "fill_container",
+          "height": 40,
+          "fill": "#083B66",
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "kAHWx",
+              "x": 0,
+              "y": 0,
+              "name": "Ola",
+              "geometry": "M0 20c65 20 130-20 195 0s130 20 195 0v20h-390z",
+              "viewBox": [
+                0,
+                0,
+                390,
+                40
+              ],
+              "fill": "#062B4A",
+              "width": 390,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "W01i1",
+          "name": "Footer",
+          "clip": true,
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 180,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#062B4A",
+                "position": 0
+              },
+              {
+                "color": "#0B3B2E",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            40,
+            20,
+            0,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "rCV40",
+              "name": "Institución",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "b5UfVg",
+                  "name": "Centro de Estudios Ambie",
+                  "fill": "$white",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Centro de Estudios Ambientales de Cienfuegos",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Bricolage Grotesque",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "p7yneY",
+                  "name": "Apartado Postal 5, CP 59",
+                  "fill": "#9FB8CE",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Apartado Postal 5, CP 59350, Ciudad Nuclear, Cienfuegos, Cuba",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "U0CjtS",
+              "name": "Columnas",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ttRbw",
+                  "name": "Enlaces rápidos",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TadGO",
+                      "name": "ENLACES RÁPIDOS",
+                      "fill": "#BFF0D2",
+                      "content": "ENLACES RÁPIDOS",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10.5,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "type": "text",
+                      "id": "zUCVM",
+                      "name": "Proyectos",
+                      "fill": "#D6E8F5",
+                      "content": "Proyectos",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VAaSi",
+                      "name": "Servicios",
+                      "fill": "#D6E8F5",
+                      "content": "Servicios",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "P97axl",
+                      "name": "Laboratorio",
+                      "fill": "#D6E8F5",
+                      "content": "Laboratorio",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "r3eWQL",
+                      "name": "Investigación",
+                      "fill": "#D6E8F5",
+                      "content": "Investigación",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GueO1",
+                      "name": "Docencia",
+                      "fill": "#D6E8F5",
+                      "content": "Docencia",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "egVRh",
+                      "name": "Noticias",
+                      "fill": "#D6E8F5",
+                      "content": "Noticias",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "V3Oh5v",
+                      "name": "Sobre Nosotros",
+                      "fill": "#D6E8F5",
+                      "content": "Sobre Nosotros",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sXe2g",
+                  "name": "Contacto",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lc2JH",
+                      "name": "CONTACTO",
+                      "fill": "#BFF0D2",
+                      "content": "CONTACTO",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10.5,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ic0fc",
+                      "name": "Tel. 43965146",
+                      "fill": "#D6E8F5",
+                      "content": "Tel. 43965146",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "upeJV",
+                      "name": "Tel. 43965187",
+                      "fill": "#D6E8F5",
+                      "content": "Tel. 43965187",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QZCjx",
+                      "name": "Fax 53-43-965146",
+                      "fill": "#D6E8F5",
+                      "content": "Fax 53-43-965146",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "g0x0FP",
+                      "name": "ceac@ceac.cu",
+                      "fill": "#D6E8F5",
+                      "content": "ceac@ceac.cu",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EbGZt",
+                      "name": "Espacio",
+                      "width": 10,
+                      "height": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "LSs84",
+                      "name": "SÍGUENOS",
+                      "fill": "#BFF0D2",
+                      "content": "SÍGUENOS",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10.5,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wmstR",
+                      "name": "Redes",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "r9n9jD",
+                          "name": "facebook",
+                          "width": 22,
+                          "height": 22,
+                          "icon": "facebook",
+                          "library": "lucide",
+                          "fill": "$white"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "CUZgp",
+                          "name": "instagram",
+                          "width": 22,
+                          "height": 22,
+                          "icon": "instagram",
+                          "library": "lucide",
+                          "fill": "$white"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "bp1eM",
+                          "name": "youtube",
+                          "width": 22,
+                          "height": 22,
+                          "icon": "youtube",
+                          "library": "lucide",
+                          "fill": "$white"
+                        },
+                        {
+                          "type": "path",
+                          "id": "Wc5q8",
+                          "name": "X",
+                          "geometry": "M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.657l-5.214-6.817-5.966 6.817h-3.31l7.73-8.835-8.156-10.665h6.826l4.713 6.231z m-1.161 17.52h1.833l-11.832-15.644h-1.967z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "$white",
+                          "width": 19,
+                          "height": 19
+                        },
+                        {
+                          "type": "path",
+                          "id": "YruIA",
+                          "name": "Telegram",
+                          "geometry": "M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12z m5.894 8.221l-1.97 9.28c-0.145 0.658-0.537 0.818-1.084 0.508l-3-2.21-1.446 1.394c-0.14 0.18-0.357 0.295-0.6 0.295-0.002 0-0.003 0-0.005 0l0.213-3.054 5.56-5.022c0.24-0.213-0.054-0.334-0.373-0.121l-6.869 4.326-2.96-0.924c-0.64-0.203-0.658-0.64 0.135-0.954l11.566-4.458c0.538-0.196 1.006 0.128 0.832 0.941z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "$white",
+                          "width": 22,
+                          "height": 22
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Mrjnr",
+              "name": "© 2026 Centro de Estudio",
+              "fill": "#7F9BB3",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "© 2026 Centro de Estudios Ambientales de Cienfuegos. Todos los derechos reservados.",
+              "lineHeight": 1.5,
+              "fontFamily": "Geist",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "rLAEm",
+              "name": "Wordmark",
+              "clip": true,
+              "width": "fill_container",
+              "height": 110,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "CoGPM",
+                  "x": -6,
+                  "y": -18,
+                  "name": "CEAC",
+                  "fill": "#0E4C5E",
+                  "content": "CEAC",
+                  "lineHeight": 1,
+                  "fontFamily": "Bricolage Grotesque",
+                  "fontSize": 190,
+                  "fontWeight": "800",
+                  "letterSpacing": -6
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "variables": {
