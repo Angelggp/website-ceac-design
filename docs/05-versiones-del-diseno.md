@@ -98,6 +98,39 @@ sintiéndose recargada.
   formulario de Contacto.
 - **Sin estadísticas** en el home (se quitaron a pedido).
 
+### Cambios de la reunión del 2026-09-30
+
+Decididos con la dirección y el área de comunicación:
+
+- **Hero:** el título pasa a ser el nombre del centro, "Centro de Estudios
+  Ambientales de Cienfuegos", con el eslogan y una bajada debajo. Se
+  quitaron la etiqueta superior, los chips y el adorno de nubes. La foto
+  del edificio cambió de arco a forma de hoja, porque a la directora no le
+  convencía como estaba.
+- **Header:** logo + "CEAC" sin el nombre completo, que sería redundante
+  con el título del hero. Aplicado en todas las páginas.
+- **Footer:** sin la palabra "CEAC" gigante (las letras cortadas rompían
+  con la identidad del centro, según comunicación). En su lugar, el logo
+  transparente en la esquina inferior derecha. Aplicado en todas las
+  páginas.
+- **Reconocimientos en el Inicio:** debían aparecer justo después del
+  hero. Para no alargar la página se integraron en el propio hero, en un
+  panel de vidrio sobre la foto. Se presentaron tres variantes (panel,
+  repartidos, órbita) y se eligió el panel.
+- **Botones "Ver todos…"** en Proyectos, Servicios y Laboratorio del
+  Inicio.
+- **Textos:** "Servicios estatales" → "Encargos estatales"; chip del
+  laboratorio → "Acreditación NC-ISO/IEC 17025"; se quitó el motivo
+  "Solicitar un ensayo" del formulario de Contacto.
+
+**Sin unificar todavía:** "Encargos estatales" solo está en el Inicio
+desktop y en el título de Servicios desktop (falta la etiqueta de
+Servicios desktop y las mobile). El chip de acreditación dice cosas
+distintas según la página ("Acreditación NC-ISO/IEC 17025", "Acreditado
+por el ONA", "Acreditado por el ONARC"). El motivo de ensayo sigue en la
+mobile de Contacto y falta definir a dónde lleva el botón "Solicitar un
+ensayo".
+
 ### Frames de la v7
 
 Son los únicos frames del `ceac-modern.pen` en `main`. Desktop en la fila

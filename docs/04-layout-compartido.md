@@ -13,8 +13,10 @@ Dos franjas:
    - Derecha: redes sociales — Facebook, Instagram, YouTube, X y Telegram.
 2. **Barra principal** (84 px, fondo blanco con sombra suave):
    - Izquierda: logo original (ícono azul-verde-celeste) + "CEAC" en negro
-     (así lo pide el manual de identidad) + nombre completo debajo en gris.
-     Pulsar el logo lleva al Inicio.
+     (así lo pide el manual de identidad), a 40 px. **Sin el nombre
+     completo debajo:** se quitó en la reunión del 2026-09-30 porque el
+     hero ya muestra el nombre del centro como título. Pulsar el logo lleva
+     al Inicio.
    - Derecha: menú — Proyectos, Servicios, Laboratorio, Investigación,
      Docencia, Noticias, Sobre Nosotros — y el botón "Escríbenos"
      (→ Contacto).
@@ -23,7 +25,8 @@ Dos franjas:
 ## Header (mobile)
 
 - Barra superior con el correo general y las 5 redes.
-- Barra principal con el logo y un botón de menú hamburguesa.
+- Barra principal con el logo + "CEAC" (32 px, sin nombre completo) y un
+  botón de menú hamburguesa.
 - **Menú abierto** (frame `CEAC v7 - Mobile menú abierto`): pantalla
   completa con las 7 opciones en lista, el botón "Escríbenos" y, abajo, el
   correo y las redes.
@@ -37,8 +40,12 @@ blanca en el borde inferior.
 
 ## Footer
 
-- Fondo degradado azul oscuro → verde oscuro, con la palabra **CEAC**
-  gigante al fondo y un adorno de hojas tenue.
+- Fondo degradado azul oscuro → verde oscuro.
+- **Logo transparente** (18 % de opacidad) en la esquina inferior derecha,
+  recortado por el borde como los adornos. Reemplaza a la palabra "CEAC"
+  gigante y al adorno de hojas, que se quitaron en la reunión del
+  2026-09-30: según comunicación, las letras cortadas rompían con la
+  identidad del centro.
 - Columna institucional: nombre completo y dirección (Apartado Postal 5,
   CP 59350, Ciudad Nuclear, Cienfuegos, Cuba).
 - **Enlaces rápidos:** Proyectos, Servicios, Laboratorio, Investigación,
@@ -54,7 +61,8 @@ blanca en el borde inferior.
 
 - **Botones:** siempre con bordes totalmente redondeados, relleno 16×30 px
   y texto de 15 px en seminegrita. Principal azul (`blue`) o azul oscuro
-  (`deep`); secundario blanco con borde.
+  (`deep`); secundario de contorno (azul, azul oscuro o blanco según el
+  fondo) con flecha, usado para los "Ver todos…".
 - **Etiquetas:** fondo celeste (`sky`) con texto azul (`blue`), un solo
   estilo para categorías, cargos y tipos.
 - **Estado (proyectos, programas):** punto azul si está activo o abierto,
