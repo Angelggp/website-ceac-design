@@ -126,8 +126,8 @@ Decididos con la dirección y el área de comunicación:
 **Unificado en todas las páginas de la v7:** "Encargos estatales" (en
 títulos, etiquetas y mobile), el chip del laboratorio como "Acreditación
 NC-ISO/IEC 17025" y el formulario de Contacto sin el motivo de ensayo
-(desktop y mobile). **Pendiente:** definir a dónde lleva el botón
-"Solicitar un ensayo" del Laboratorio.
+(desktop y mobile). El botón "Solicitar un ensayo" del Laboratorio lleva a
+Contacto con el motivo "Otro".
 
 ### Frames de la v7
 
@@ -138,7 +138,7 @@ debajo de su versión desktop.
 | Página | Desktop | Mobile |
 |---|---|---|
 | Inicio | `CEAC v7 - Desktop` | `CEAC v7 - Mobile` + `CEAC v7 - Mobile menú abierto` |
-| Proyectos | `CEAC v7 - Proyectos (Desktop)` (por bloques) y `CEAC v7 - Proyectos con filtro (Desktop)` | `CEAC v7 - Proyectos (Mobile)` (por bloques) |
+| Proyectos | `CEAC v7 - Proyectos (Desktop)` (con filtro) | `CEAC v7 - Proyectos (Mobile)` (con filtro) |
 | Detalle de proyecto | `CEAC v7 - Detalle de proyecto (Desktop)` | `CEAC v7 - Detalle de proyecto (Mobile)` |
 | Servicios | `CEAC v7 - Servicios (Desktop)` | `CEAC v7 - Servicios (Mobile)` |
 | Laboratorio | `CEAC v7 - Laboratorio (Desktop)` | `CEAC v7 - Laboratorio (Mobile)` |
@@ -153,8 +153,6 @@ El detalle de cada página está en [`paginas/`](paginas/).
 
 ### Pendientes de la v7
 
-- **Proyectos:** elegir entre la versión por bloques y la versión con
-  filtro. La mobile hecha corresponde a la de bloques.
 - **Contenido real** (hoy es de relleno): lista de proyectos con su ficha,
   investigadores (nombre, cargo, foto), artículos con sus enlaces,
   noticias, fundadores, servicios, parámetros acreditados del laboratorio,
@@ -179,5 +177,6 @@ El detalle de cada página está en [`paginas/`](paginas/).
   el motivo "Contactar a un investigador", y el envío debe hacerse desde el
   servidor.
 - **Botones que llevan a Contacto:** "Escríbenos", "Solicitar un servicio",
-  "Solicitar información" y "Contactar" abren la
-  página de Contacto con el motivo correspondiente ya marcado.
+  "Solicitar un ensayo", "Solicitar información" y "Contactar" abren la
+  página de Contacto con el motivo correspondiente ya marcado ("Solicitar
+  un ensayo" → "Otro").

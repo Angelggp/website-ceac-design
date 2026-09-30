@@ -5,36 +5,31 @@ internacionales del centro, con su estado y su ficha.
 
 **Frames:**
 
-- Listado por bloques: `CEAC v7 - Proyectos (Desktop)` y
-  `CEAC v7 - Proyectos (Mobile)`.
-- Listado con filtro (alternativa): `CEAC v7 - Proyectos con filtro
-  (Desktop)`.
+- Listado: `CEAC v7 - Proyectos (Desktop)` y `CEAC v7 - Proyectos
+  (Mobile)`.
 - Detalle: `CEAC v7 - Detalle de proyecto (Desktop)` y
   `CEAC v7 - Detalle de proyecto (Mobile)`.
 
-## Listado — versión por bloques
+## Listado (versión con filtro)
+
+Se eligió la versión con filtro frente a la de bloques por categoría
+porque escala mejor a medida que se agreguen proyectos. La versión por
+bloques solo queda en la rama `historial-versiones`.
 
 1. Header (con "Proyectos" marcado).
 2. Encabezado de página: foto aérea de costa, "Inicio › Proyectos",
    título y bajada.
-3. **Proyectos territoriales**, **nacionales** e **internacionales**: un
-   bloque por categoría (fondos alternados), con título, una línea de
-   descripción y 3 tarjetas. Cada tarjeta: foto con el estado encima
-   (Activo / Concluido), título, descripción y "Ver proyecto".
-4. Ola → franja azul "¿Tienes una idea de proyecto?" con "Escríbenos".
-5. Ola → Footer.
+3. **Barra de filtros:** chips Todos / Territoriales / Nacionales /
+   Internacionales, cada uno con su número de proyectos; selector de
+   estado y buscador.
+4. **Cuadrícula** de proyectos (3 columnas en desktop): cada tarjeta lleva
+   foto con el estado encima (Activo / Concluido), etiqueta de categoría,
+   título, descripción y "Ver proyecto".
+5. Ola → franja azul "¿Tienes una idea de proyecto?" con "Escríbenos".
+6. Ola → Footer.
 
-Mobile: cada categoría muestra sus proyectos en un carrusel horizontal.
-
-## Listado — versión con filtro
-
-Mismo encabezado y cierre. En lugar de los bloques: barra con chips Todos /
-Territoriales / Nacionales / Internacionales (con su número de proyectos),
-selector de estado y buscador; debajo, una cuadrícula de 3×3 donde cada
-tarjeta lleva además su etiqueta de categoría.
-
-**Pendiente:** elegir una de las dos. Por bloques se lee mejor con pocos
-proyectos; con filtro escala mejor si son muchos o van a crecer.
+Mobile: chips de filtro deslizables, buscador a todo el ancho, tarjetas
+apiladas y botón "Cargar más proyectos".
 
 ## Detalle de proyecto
 

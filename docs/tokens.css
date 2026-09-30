@@ -1,109 +1,84 @@
 /*
- * Tokens de diseño — CEAC
- * Fuente de verdad: docs/02-tokens-de-diseno.md
+ * Tokens de diseño — CEAC (v7)
+ * Fuente de verdad: docs/02-tokens-de-diseno.md (sección "Tokens que usa
+ * la v7"). Valores tomados de las variables de ceac-modern.pen.
  *
- * Origen: extraídos del boceto real "CEAC Home Modern" dentro de
- * ceac-modern.pen (no de "CEAC HomePage", que arrancó con una paleta
- * genérica de SaaS — ver docs/00-indice.md). Los frames "CEAC HomePage"
- * y "About us seccion" ya fueron realineados a estos tokens.
+ * Custom properties CSS puras, sin depender de ningún framework: se
+ * pueden consumir tal cual o volcar al tema de Tailwind.
  *
- * 2026-09-25: se subió la saturación de ink-500/ink-400 (se leían gris
- * en vez de azul de marca) y se agregaron *-bright para interactivos.
- * `ceac-modern.pen` ya quedó actualizado con esta versión.
- *
- * Formato: custom properties CSS puras, sin depender de ningún
- * framework. Se pueden consumir tal cual, o volcar a un tema de
- * Tailwind / styled-components / etc. cuando se elija el stack.
+ * El sitio tiene un solo modo (claro); no hay modo oscuro.
  */
 
 :root {
   /* ---------- Color: marca ---------- */
-  --color-primary: #0A6FCC;        /* azul institucional: logo, botones grandes */
-  --color-primary-bright: #007AEB; /* mismo hue, saturación 100% — links y CTAs de texto */
-  --color-accent: #1EA84A;         /* verde ambiental: acentos, logos de colaboradores */
-  --color-accent-alt: #1A9D61;     /* variante de verde, para alternar en listas/carruseles */
-  --color-accent-bright: #11D04E;  /* verde vívido — hover / highlight */
+  --color-blue: #0A6FCC;       /* azul institucional: botones, enlaces, etiquetas, íconos */
+  --color-deep: #083B66;       /* títulos, texto fuerte, barra superior, botones oscuros */
+  --color-abyss: #062B4A;      /* inicio del degradado del footer */
+  --color-leaf: #1A9D61;       /* verde del logo, acentos */
+  --color-leaf-dark: #12804A;  /* verde de marca en degradados */
+  --color-moss: #0F4C3A;       /* verde oscuro de degradados */
 
-  /* ---------- Color: escala navy (texto) ----------
-   * Jerarquía de texto real del boceto "CEAC Home Modern", con la
-   * saturación de los tonos medios/claros subida (2026-09-25: la
-   * primera versión se leía gris-azulado en vez de "de marca").
-   * Mismo hue (~206°) y misma luminosidad en cada paso — la jerarquía
-   * de contraste no cambia, solo deja de verse apagado.
-   */
-  --ink-900: #083B66; /* wordmark, títulos de sección grandes */
-  --ink-800: #0B4A73; /* nav activo, cifras de stats, títulos de tarjeta */
-  --ink-700: #104E7F; /* labels de stats */
-  --ink-600: #185C92; /* nav inactivo */
-  --ink-500: #2A6FA6; /* cuerpo de texto, descripciones */
-  --ink-400: #5E9AC9; /* texto secundario liviano */
-  --ink-100: #D2E3EF; /* bordes suaves, paneles */
-  --ink-50:  #F4FAFC; /* fondo general */
+  /* ---------- Color: texto ---------- */
+  --color-heading: var(--color-deep);
+  --color-body: #2A6FA6;       /* cuerpo de texto y descripciones (ink-500) */
+  --color-on-dark: #FFFFFF;
+  --color-on-dark-muted: #DCEEFA;
+  --color-on-dark-soft: #C7DDEB;
 
-  /* ---------- Color: semántico ---------- */
-  --color-background: #FFFFFF;
-  --color-background-soft: var(--ink-50);
-  --color-heading: var(--ink-900);
-  --color-body: var(--ink-500);
-  --color-muted: var(--ink-400);
-  --color-border: var(--ink-100);
-  --color-border-shadow: #0A35520D; /* sombra suave del header, con alpha */
+  /* ---------- Color: superficies ---------- */
+  --color-bg: #FFFFFF;
+  --color-bg-soft: #F4FAFC;    /* foam: secciones alternas y tarjetas */
+  --color-sky: #DCEEFA;        /* fondo de etiquetas y círculos de íconos */
+  --color-mint: #E4F3EA;       /* fondo verde muy claro */
+  --color-mist: #9CC9EA;       /* detalles suaves sobre fondos oscuros */
+  --color-border: #D2E3EF;     /* bordes de tarjetas */
+  --color-divider: #E5EEF5;    /* líneas internas */
+  --color-status-off: #9AA9B5; /* estado concluido / próximamente */
 
-  /* Texto sobre fondos de color/oscuros (Hero, LEA, Investigación, etc.) */
-  --color-on-brand: #FFFFFF;
-  --color-on-brand-muted: #D9EEFF;
+  /* ---------- Degradados ---------- */
+  --gradient-hero-veil: linear-gradient(250deg, #083B66E6 0%, #0B5D6DBF 55%, #12804A9E 100%);
+  --gradient-page-veil: linear-gradient(250deg, #083B66F2 0%, #0B5D6DCC 60%, #12804AA6 100%);
+  --gradient-band-blue: linear-gradient(180deg, #0A6FCC 0%, #083B66 100%);
+  --gradient-footer: linear-gradient(180deg, #062B4A 0%, #0B3B2E 100%);
+
+  /* Vidrio (panel de reconocimientos del hero) */
+  --glass-fill: linear-gradient(160deg, #FFFFFF47 0%, #FFFFFF14 100%);
+  --glass-border: #FFFFFF80;
+  --glass-blur: 24px;
 
   /* ---------- Tipografía ---------- */
-  --font-display: 'Funnel Sans', sans-serif;
-  --font-body: 'Geist', sans-serif;
-  --font-label: 'IBM Plex Mono', monospace;
-  --font-accent: 'Staccato222 BT', cursive; /* uso puntual, un solo lugar (tagline del Hero) */
+  --font-display: 'Bricolage Grotesque', sans-serif; /* títulos, nombres, cifras */
+  --font-body: 'Geist', sans-serif;                   /* cuerpo, menú, botones */
+  --font-label: 'IBM Plex Mono', monospace;           /* eyebrows y fechas en mayúsculas */
+  --font-brand: 'Funnel Sans', sans-serif;            /* "CEAC" del header, en negro */
+  --font-accent: 'Caveat', cursive;                   /* solo el eslogan del hero */
 
-  /* Escala tipográfica */
-  --text-xs: 12px;
+  --text-eyebrow: 12px;   /* IBM Plex Mono, mayúsculas, letter-spacing 2px */
   --text-sm: 13px;
-  --text-base: 15px;
-  --text-md: 18px;
-  --text-lg: 20px;
-  --text-xl: 28px;
-  --text-2xl: 34px;
-  --text-3xl: 52px;
+  --text-base: 15px;      /* cuerpo, botones */
+  --text-md: 16px;
+  --text-lg: 18px;        /* bajadas */
+  --text-xl: 24px;        /* títulos de tarjeta */
+  --text-2xl: 32px;
+  --text-3xl: 52px;       /* títulos de sección */
   --text-4xl: 64px;
+  --text-hero: 60px;      /* título del hero en desktop */
+  --text-page: 84px;      /* título de encabezado de página interna */
 
   /* ---------- Medidas ---------- */
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 16px;
-  --radius-pill: 9999px;
+  --radius-sm: 12px;
+  --radius-md: 16px;      /* tarjetas, fotos */
+  --radius-lg: 20px;
+  --radius-xl: 24px;      /* paneles grandes */
+  --radius-pill: 9999px;  /* botones, etiquetas, chips */
 
-  /* Espaciado (escala base 4px, con las excepciones reales del boceto) */
-  --space-1: 4px;
-  --space-2: 8px;
-  --space-3: 12px;
-  --space-4: 16px;
-  --space-5: 20px;
-  --space-6: 24px;
-  --space-8: 32px;
-  --space-12: 48px;
-  --space-16: 64px;
-  --space-24: 96px; /* padding horizontal de Header/Hero en el boceto */
-}
+  --button-padding: 16px 30px;
 
-/*
- * Modo oscuro: PROPUESTO, no validado visualmente.
- * El checklist de docs/06-principios-de-diseno.md todavía no confirma
- * si el sitio necesita modo oscuro. Estos valores son un punto de
- * partida calculado (mismo hue, luminosidad invertida), a revisar
- * antes de darlos por definitivos.
- */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-primary: #4C9EE0;
-    --color-background: #0A1F33;
-    --color-background-soft: #0D2740;
-    --color-heading: #EAF4FF;
-    --color-body: #B9CBDA;
-    --color-muted: #8CA3B8;
-    --color-border: #1E4E71;
-  }
+  --gutter-desktop: 64px; /* márgenes laterales */
+  --gutter-mobile: 20px;
+  --section-padding-y: 88px;
+  --section-padding-y-mobile: 48px;
+
+  --shadow-card: 0 12px 32px #0A355212;
+  --shadow-header: 0 2px 14px #0A355214;
 }
