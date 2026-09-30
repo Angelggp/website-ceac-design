@@ -27,10 +27,8 @@ Ensayos Ambientales y cómo solicitarlos.
    ensayo". En mobile la línea de tiempo es vertical.
 6. Ola → Footer.
 
-**CTA principal:** "Solicitar un ensayo" → Contacto. Como el formulario
-ya no tiene el motivo "Solicitar un ensayo", falta definir cómo se
-solicitan los ensayos (motivo "Otro", un formulario propio del
-laboratorio o un contacto directo).
+**CTA principal:** "Solicitar un ensayo" → Contacto con el motivo "Otro"
+ya marcado (el formulario no tiene un motivo específico de ensayo).
 
 **Notas:**
 

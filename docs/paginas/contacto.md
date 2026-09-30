@@ -31,8 +31,8 @@ la ubicación del centro.
 **Notas:**
 
 - Todos los botones de solicitud del sitio llevan aquí con el motivo ya
-  marcado: "Solicitar un servicio" → servicio, "Solicitar información" →
-  docencia, "Contactar" (investigador)
+  marcado: "Solicitar un servicio" → servicio, "Solicitar un ensayo" →
+  Otro, "Solicitar información" → docencia, "Contactar" (investigador)
   → investigador.
 - Así el correo de los investigadores nunca se muestra: el formulario
   envía el mensaje desde el servidor.
