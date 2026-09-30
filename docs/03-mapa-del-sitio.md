@@ -7,7 +7,7 @@ Páginas de la v7, en el orden del menú. Cada una tiene su archivo en
 |---|---|
 | [Inicio](paginas/inicio.md) | Presentar el centro de un vistazo y dirigir a proyectos, servicios, laboratorio y contacto |
 | [Proyectos](paginas/proyectos.md) | Mostrar los proyectos territoriales, nacionales e internacionales, con estado y ficha |
-| [Servicios](paginas/servicios.md) | Presentar los servicios científicos y estatales y cómo solicitarlos |
+| [Servicios](paginas/servicios.md) | Presentar los servicios científicos y los encargos estatales, y cómo solicitarlos |
 | [Laboratorio](paginas/laboratorio.md) | Presentar los ensayos acreditados de agua, suelos, aire y ruido |
 | [Investigación](paginas/investigacion.md) | Líneas de investigación, investigadores y artículos científicos |
 | [Docencia](paginas/docencia.md) | Diplomados y cursos de posgrado |

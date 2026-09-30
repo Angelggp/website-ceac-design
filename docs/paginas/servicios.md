@@ -1,6 +1,6 @@
 # Página: Servicios
 
-**Objetivo (1 línea):** Presentar los servicios científicos y estatales del
+**Objetivo (1 línea):** Presentar los servicios científicos y los encargos estatales del
 centro y cómo solicitarlos.
 
 **Frames:** `CEAC v7 - Servicios (Desktop)` y `CEAC v7 - Servicios
@@ -18,7 +18,7 @@ centro y cómo solicitarlos.
    - Monitoreo de ecosistemas (Campañas de campo · Indicadores · Series de
      datos)
    - Consultoría científico-técnica (Asesoría · Capacitación · Dictámenes)
-4. **Servicios estatales:** misma estructura en espejo.
+4. **Encargos estatales:** misma estructura en espejo.
    - Evaluación de impacto ambiental (Estudio de impacto · Medidas ·
      Seguimiento)
    - Informes técnicos (Informes · Reportes periódicos)

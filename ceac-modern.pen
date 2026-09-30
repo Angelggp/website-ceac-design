@@ -1423,7 +1423,7 @@
                       "id": "y2EUP",
                       "name": "Servicios estatales",
                       "fill": "$white",
-                      "content": "Servicios estatales",
+                      "content": "Encargos estatales",
                       "fontFamily": "Bricolage Grotesque",
                       "fontSize": 24,
                       "fontWeight": "700"
@@ -1789,7 +1789,7 @@
                 {
                   "type": "frame",
                   "id": "qGHBj",
-                  "x": 110,
+                  "x": 50,
                   "y": 270,
                   "name": "Chip",
                   "fill": "$deep",
@@ -1816,7 +1816,7 @@
                       "id": "hDSK8",
                       "name": "Acreditado por el ONA",
                       "fill": "$white",
-                      "content": "Acreditado por el ONA",
+                      "content": "Acreditación NC-ISO/IEC 17025",
                       "fontFamily": "Geist",
                       "fontSize": 12.5,
                       "fontWeight": "700"
@@ -12982,7 +12982,7 @@
                   "id": "ZKucX",
                   "name": "Eyebrow",
                   "fill": "$blue",
-                  "content": "SERVICIOS ESTATALES",
+                  "content": "ENCARGOS ESTATALES",
                   "fontFamily": "IBM Plex Mono",
                   "fontSize": 12,
                   "fontWeight": "500",
@@ -14639,7 +14639,7 @@
                       "id": "cwI97",
                       "name": "Acreditado por el ONA",
                       "fill": "$deep",
-                      "content": "Acreditado por el ONARC",
+                      "content": "Acreditación NC-ISO/IEC 17025",
                       "fontFamily": "Geist",
                       "fontSize": 14,
                       "fontWeight": "600"
@@ -16865,7 +16865,7 @@
                   "id": "nNGlJ",
                   "name": "Acreditado por el ONA",
                   "fill": "$deep",
-                  "content": "Acreditado por el ONARC",
+                  "content": "Acreditación NC-ISO/IEC 17025",
                   "fontFamily": "Geist",
                   "fontSize": 13,
                   "fontWeight": "600"
@@ -46885,42 +46885,6 @@
                 },
                 {
                   "type": "frame",
-                  "id": "z7xDCF",
-                  "name": "Solicitar un ensayo",
-                  "fill": "$white",
-                  "cornerRadius": 999,
-                  "stroke": "#D2E3EF",
-                  "strokeWidth": 1.5,
-                  "gap": 6,
-                  "padding": [
-                    10,
-                    14
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "j0eria",
-                      "name": "Solicitar un ensayo",
-                      "fill": "$deep",
-                      "content": "Solicitar un ensayo",
-                      "fontFamily": "Geist",
-                      "fontSize": 13.5,
-                      "fontWeight": "600"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "Ea5Sh",
-              "name": "Motivos",
-              "width": "fill_container",
-              "gap": 8,
-              "children": [
-                {
-                  "type": "frame",
                   "id": "m5a6b",
                   "name": "Docencia y posgrado",
                   "fill": "$white",
@@ -46940,6 +46904,42 @@
                       "name": "Docencia y posgrado",
                       "fill": "$deep",
                       "content": "Docencia y posgrado",
+                      "fontFamily": "Geist",
+                      "fontSize": 13.5,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Ea5Sh",
+              "name": "Motivos",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "slbKW",
+                  "name": "Contactar a un investigador",
+                  "fill": "$white",
+                  "cornerRadius": 999,
+                  "stroke": "#D2E3EF",
+                  "strokeWidth": 1.5,
+                  "gap": 6,
+                  "padding": [
+                    10,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rlLk4",
+                      "name": "Contactar a un investiga",
+                      "fill": "$deep",
+                      "content": "Contactar a un investigador",
                       "fontFamily": "Geist",
                       "fontSize": 13.5,
                       "fontWeight": "600"
@@ -46967,42 +46967,6 @@
                       "name": "Otro",
                       "fill": "$deep",
                       "content": "Otro",
-                      "fontFamily": "Geist",
-                      "fontSize": 13.5,
-                      "fontWeight": "600"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "MEkZt",
-              "name": "Motivos",
-              "width": "fill_container",
-              "gap": 8,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "slbKW",
-                  "name": "Contactar a un investigador",
-                  "fill": "$white",
-                  "cornerRadius": 999,
-                  "stroke": "#D2E3EF",
-                  "strokeWidth": 1.5,
-                  "gap": 6,
-                  "padding": [
-                    10,
-                    14
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "rlLk4",
-                      "name": "Contactar a un investiga",
-                      "fill": "$deep",
-                      "content": "Contactar a un investigador",
                       "fontFamily": "Geist",
                       "fontSize": 13.5,
                       "fontWeight": "600"
@@ -53081,7 +53045,7 @@
               "id": "Z0NjJ",
               "name": "Eyebrow",
               "fill": "$blue",
-              "content": "SERVICIOS ESTATALES",
+              "content": "ENCARGOS ESTATALES",
               "fontFamily": "IBM Plex Mono",
               "fontSize": 11,
               "fontWeight": "500",
@@ -53094,7 +53058,7 @@
               "fill": "$deep",
               "textGrowth": "fixed-width",
               "width": "fill_container",
-              "content": "Servicios estatales",
+              "content": "Encargos estatales",
               "lineHeight": 1.05,
               "fontFamily": "Bricolage Grotesque",
               "fontSize": 32,

@@ -123,13 +123,11 @@ Decididos con la dirección y el área de comunicación:
   laboratorio → "Acreditación NC-ISO/IEC 17025"; se quitó el motivo
   "Solicitar un ensayo" del formulario de Contacto.
 
-**Sin unificar todavía:** "Encargos estatales" solo está en el Inicio
-desktop y en el título de Servicios desktop (falta la etiqueta de
-Servicios desktop y las mobile). El chip de acreditación dice cosas
-distintas según la página ("Acreditación NC-ISO/IEC 17025", "Acreditado
-por el ONA", "Acreditado por el ONARC"). El motivo de ensayo sigue en la
-mobile de Contacto y falta definir a dónde lleva el botón "Solicitar un
-ensayo".
+**Unificado en todas las páginas de la v7:** "Encargos estatales" (en
+títulos, etiquetas y mobile), el chip del laboratorio como "Acreditación
+NC-ISO/IEC 17025" y el formulario de Contacto sin el motivo de ensayo
+(desktop y mobile). **Pendiente:** definir a dónde lleva el botón
+"Solicitar un ensayo" del Laboratorio.
 
 ### Frames de la v7
 
@@ -181,5 +179,5 @@ El detalle de cada página está en [`paginas/`](paginas/).
   el motivo "Contactar a un investigador", y el envío debe hacerse desde el
   servidor.
 - **Botones que llevan a Contacto:** "Escríbenos", "Solicitar un servicio",
-  "Solicitar un ensayo", "Solicitar información" y "Contactar" abren la
+  "Solicitar información" y "Contactar" abren la
   página de Contacto con el motivo correspondiente ya marcado.

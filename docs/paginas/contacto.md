@@ -11,8 +11,9 @@ la ubicación del centro.
 2. Encabezado de página: foto del edificio del CEAC, "Inicio › Contacto",
    título y bajada.
 3. **Formulario:**
-   - **Motivo de la consulta** (chips): Solicitar un servicio, Solicitar un
-     ensayo, Docencia y posgrado, Contactar a un investigador, Otro.
+   - **Motivo de la consulta** (chips): Solicitar un servicio, Docencia y
+     posgrado, Contactar a un investigador, Otro. (El motivo "Solicitar un
+     ensayo" se quitó en la reunión del 2026-09-30.)
    - Campos: nombre y apellidos, institución o empresa (opcional), correo,
      teléfono (opcional), asunto y mensaje.
    - Casilla de consentimiento de datos, aviso "Respondemos en un plazo de
@@ -30,8 +31,8 @@ la ubicación del centro.
 **Notas:**
 
 - Todos los botones de solicitud del sitio llevan aquí con el motivo ya
-  marcado: "Solicitar un servicio" → servicio, "Solicitar un ensayo" →
-  ensayo, "Solicitar información" → docencia, "Contactar" (investigador)
+  marcado: "Solicitar un servicio" → servicio, "Solicitar información" →
+  docencia, "Contactar" (investigador)
   → investigador.
 - Así el correo de los investigadores nunca se muestra: el formulario
   envía el mensaje desde el servidor.
