@@ -22,16 +22,21 @@ abierto`.
      de Referencia del OIEA (desde 2007), Laboratorio acreditado (ONARC ·
      NC-ISO/IEC 17025) y Orden Carlos J. Finlay (mérito científico 2025).
    - Termina en una ola.
-3. **Proyectos:** "Nuestros proyectos", listado editorial de 3 filas
-   (número, etiqueta de categoría, título grande, descripción, foto y
-   flecha) y botón de contorno "Ver todos los proyectos".
+3. **Proyectos:** "Nuestros proyectos": tres paneles de foto a todo el alto
+   (560 px). El primero va abierto (680 px) con categoría, título grande,
+   descripción, "Ver proyecto" y un botón circular blanco con flecha; los
+   otros dos van cerrados (300 px) con número, categoría y título. En la web
+   el panel se abre al pasar el ratón o al enfocarlo. Botón de contorno
+   "Ver todos los proyectos".
 4. **Servicios:** fondo azul, dos columnas — servicios científicos y
    encargos estatales —, cada una con foto de cabecera y 3 servicios en
    lista. Botones "Solicitar un servicio" y "Ver todos los servicios".
 5. Ola → **Laboratorio:** foto circular con el chip "Acreditación
    NC-ISO/IEC 17025", los 3 tipos de ensayo y los botones "Solicitar un
    ensayo" y "Ver todos los ensayos".
-6. **Noticias:** una destacada grande y dos secundarias.
+6. **Noticias:** una destacada grande y dos secundarias, sobre una banda
+   verde profunda (`#12804A` → `#0F4C3A`) con texto claro; termina en ola
+   hacia Colaboradores.
 7. **Colaboradores internacionales:** "Ciencia en red con el mundo",
    carrusel de tarjetas (OIEA, PNUMA, GEF, INVEMAR, UCR, USAC) con flechas
    y puntos.
@@ -52,6 +57,6 @@ abierto`.
   medallas en órbita— y se eligió el panel.
 - Mobile: el hero apila texto, botones a todo el ancho y la foto; el panel
   de reconocimientos es compacto (insignias en fila con el nombre debajo)
-  y solo pisa el borde inferior de la foto. Proyectos y noticias en
-  tarjetas apiladas; colaboradores en carrusel deslizable; los botones
+  y solo pisa el borde inferior de la foto. Proyectos (tarjetas de foto con velo azul) y
+  noticias apiladas; colaboradores en carrusel deslizable; los botones
   "Ver todos…" van a todo el ancho al final de cada sección.

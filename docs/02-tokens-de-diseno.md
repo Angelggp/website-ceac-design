@@ -27,7 +27,8 @@ propias, todas consumen estos tokens. Ver la regla de oro en el
 | `blue` | `#0A6FCC` | Azul institucional: botones principales, enlaces, etiquetas, íconos |
 | `ink-500` | `#2A6FA6` | Texto de cuerpo y descripciones |
 | `sky` | `#DCEEFA` | Fondo de etiquetas y de círculos de íconos |
-| `foam` | `#F4FAFC` | Fondo de secciones alternas y de tarjetas |
+| `foam` | `#F4FAFC` | Fondo de tarjetas (casi blanco: no sirve para separar secciones) |
+| Banda verde | `#12804A` → `#0F4C3A` (vertical) | Fondo de Noticias en el Inicio: el verde de la marca como contrapunto de los azules, con texto blanco y menta (`#BFF0D2` en fechas y etiquetas, `#D6EFE0` en descripciones) |
 | `mist` | `#9CC9EA` | Detalles suaves sobre fondos oscuros |
 | `abyss` | `#062B4A` | Inicio del degradado del footer |
 | `leaf` | `#1A9D61` | Verde del logo, acentos |

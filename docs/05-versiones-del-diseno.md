@@ -129,6 +129,16 @@ NC-ISO/IEC 17025" y el formulario de Contacto sin el motivo de ensayo
 (desktop y mobile). El botón "Solicitar un ensayo" del Laboratorio lleva a
 Contacto con el motivo "Otro".
 
+### Ajustes posteriores (2026-10-02)
+
+- **Proyectos del Inicio:** la lista editorial se reemplazó por tres paneles
+  de foto (el primero abierto), en desktop, y tarjetas de foto apiladas en
+  mobile.
+- **Noticias del Inicio:** el fondo `foam` casi no se distinguía del blanco.
+  Ahora es una banda verde profunda (`#12804A` → `#0F4C3A`) con texto claro.
+- **Curvas:** los límites entre secciones del Inicio alternan curva y recta
+  (ver `04-layout-compartido.md`).
+
 ### Frames de la v7
 
 Son los únicos frames del `ceac-modern.pen` en `main`. Desktop en la fila

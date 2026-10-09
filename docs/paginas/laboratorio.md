@@ -35,3 +35,33 @@ ya marcado (el formulario no tiene un motivo específico de ensayo).
 - Confirmar que la acreditación es bajo NC-ISO/IEC 17025.
 - La lista de parámetros es orientativa: ajustarla a los ensayos realmente
   acreditados.
+
+
+## Secciones del laboratorio (propuesta A2, 2026-10-05, sin aplicar)
+
+Con la información de referencia que dio el centro (pendiente de aprobar), la
+parte «Qué analizamos» se sustituye por **ocho secciones**: Radiometría,
+Contaminantes orgánicos, Físico-químicos, Bioensayos, Metales traza y
+mayoritarios, Pretratamiento y sedimentología, Ecología marina (sin datos aún)
+y Colecta de muestras.
+
+Los **servicios del departamento DECA** (evaluaciones, técnicas nucleares,
+vigilancia radiológica, etc.) van en la página **Servicios**, no aquí.
+
+**Frames:** `CEAC v7 - Laboratorio A2 (Desktop)` y `(Mobile)`. Se descartó la
+variante de página larga con índice (B). `Laboratorio A` queda como primera
+versión del selector.
+
+- **Pestañas** con ícono para las secciones (deslizables en mobile).
+- **Cabecera azul** de la sección elegida: ícono, título, descripción y
+  conteo de equipos y servicios.
+- **Servicios disponibles** como lista con check; los acreditados llevan la
+  etiqueta verde «Acreditado».
+- **Equipamiento** como tarjetas con la **foto del equipo** y el nombre abajo;
+  al pasar el cursor (o tocar, en mobile) la tarjeta muestra las
+  especificaciones resumidas.
+- **Otros equipos** como etiquetas.
+
+Pendiente: tabla de normas cubanas (NC 22, 25, 27, 521, 827 y 1095), fotos
+reales de cada equipo (las del diseño son de stock) y los datos de Ecología
+marina.

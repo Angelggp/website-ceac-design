@@ -32,6 +32,7 @@
   --color-mint: #E4F3EA;       /* fondo verde muy claro */
   --color-mist: #9CC9EA;       /* detalles suaves sobre fondos oscuros */
   --color-border: #D2E3EF;     /* bordes de tarjetas */
+  --gradient-band-green: linear-gradient(180deg, #12804A 0%, #0F4C3A 100%); /* banda verde profunda (Noticias) */
   --color-divider: #E5EEF5;    /* líneas internas */
   --color-status-off: #9AA9B5; /* estado concluido / próximamente */
 

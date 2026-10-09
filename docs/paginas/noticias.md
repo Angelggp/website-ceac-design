@@ -40,4 +40,14 @@ con miniatura a la izquierda; botón "Cargar más noticias".
 6. "También te puede interesar": 3 noticias más.
 7. Footer.
 
+### Variante B del detalle (propuesta, sin aplicar)
+
+Reemplaza la cabecera centrada por una **foto a todo el ancho con velo** y el
+texto alineado a la izquierda abajo: ruta, categoría, fecha y tiempo de
+lectura, y el título grande; termina en ola (igual que el detalle de
+Proyectos). El resumen pasa a ser una **entradilla** alineada a la izquierda
+al comienzo del cuerpo, con el pie de foto debajo. La columna de compartir y
+el resto del cuerpo no cambian. Frames: `CEAC v7 - Detalle de noticia B
+(Desktop)` y `CEAC v7 - Detalle de noticia B (Mobile)`.
+
 **Notas:** todo el contenido de las noticias es de relleno.

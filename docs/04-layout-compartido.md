@@ -67,8 +67,15 @@ blanca en el borde inferior.
   estilo para categorías, cargos y tipos.
 - **Estado (proyectos, programas):** punto azul si está activo o abierto,
   gris si está concluido o próximamente.
-- **Olas divisorias:** solo entre secciones que cambian de color, no en
-  todas.
+- **Olas divisorias:** los límites entre secciones alternan curva y recta
+  para que la página respire. En el Inicio: Hero → Proyectos (curva),
+  Proyectos → Servicios (recta), Servicios → Laboratorio (curva),
+  Laboratorio → Noticias (recta), Noticias → Colaboradores (curva),
+  Colaboradores → Contacto (recta) y Contacto → Footer (curva). Cada ola toma
+  como fondo el color con el que termina la sección de arriba y como relleno
+  el color con el que empieza la de abajo. El fondo `foam` casi no se
+  distingue del blanco: para destacar una sección se usan los azules
+  profundos o la banda verde.
 - **Carruseles** (colaboradores, investigadores, proyectos en mobile): la
   siguiente tarjeta asoma por el borde para indicar que se puede deslizar;
   en desktop llevan flechas redondas y puntos de posición.
