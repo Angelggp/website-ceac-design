@@ -100046,7 +100046,7 @@
       "id": "ob2kM",
       "x": 44620,
       "y": 0,
-      "name": "CEAC v7 - Detalle de noticia · Propuesta B columna lateral (Desktop)",
+      "name": "CEAC v7 - Detalle de noticia · Propuesta B2 columna lateral (Desktop)",
       "clip": true,
       "width": 1440,
       "fill": "$white",
@@ -101021,114 +101021,8 @@
               "name": "Columna lateral",
               "width": 320,
               "layout": "vertical",
-              "gap": 28,
+              "gap": 36,
               "children": [
-                {
-                  "type": "frame",
-                  "id": "VRbzM",
-                  "name": "Datos de la noticia",
-                  "width": "fill_container",
-                  "fill": "#f2f8fc",
-                  "cornerRadius": 16,
-                  "layout": "vertical",
-                  "gap": 14,
-                  "padding": 24,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "P7ph9",
-                      "name": "CATEGORÍA",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 4,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "FaI1p",
-                          "name": "Etiqueta",
-                          "fill": "#2a6fa6",
-                          "content": "CATEGORÍA",
-                          "fontFamily": "IBM Plex Mono",
-                          "fontSize": 11,
-                          "fontWeight": "normal",
-                          "letterSpacing": 1.5
-                        },
-                        {
-                          "type": "text",
-                          "id": "CLfTs",
-                          "name": "Valor",
-                          "fill": "#083b66",
-                          "content": "Investigación",
-                          "fontFamily": "Geist",
-                          "fontSize": 15,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "N5NXv",
-                      "name": "PUBLICADA",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 4,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "hQPsO",
-                          "name": "Etiqueta",
-                          "fill": "#2a6fa6",
-                          "content": "PUBLICADA",
-                          "fontFamily": "IBM Plex Mono",
-                          "fontSize": 11,
-                          "fontWeight": "normal",
-                          "letterSpacing": 1.5
-                        },
-                        {
-                          "type": "text",
-                          "id": "EsA9x",
-                          "name": "Valor",
-                          "fill": "#083b66",
-                          "content": "12 sep 2026",
-                          "fontFamily": "Geist",
-                          "fontSize": 15,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "L8Vmm",
-                      "name": "LECTURA",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 4,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "uhfr9",
-                          "name": "Etiqueta",
-                          "fill": "#2a6fa6",
-                          "content": "LECTURA",
-                          "fontFamily": "IBM Plex Mono",
-                          "fontSize": 11,
-                          "fontWeight": "normal",
-                          "letterSpacing": 1.5
-                        },
-                        {
-                          "type": "text",
-                          "id": "VXM9V",
-                          "name": "Valor",
-                          "fill": "#083b66",
-                          "content": "3 min",
-                          "fontFamily": "Geist",
-                          "fontSize": 15,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    }
-                  ]
-                },
                 {
                   "type": "frame",
                   "id": "RRKQk",
@@ -101255,12 +101149,20 @@
                   ]
                 },
                 {
+                  "type": "rectangle",
+                  "id": "SRVJs",
+                  "name": "Separador",
+                  "fill": "#E3EDF5",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
                   "type": "frame",
                   "id": "EPTN9",
                   "name": "Más recientes",
                   "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 16,
+                  "gap": 18,
                   "children": [
                     {
                       "type": "text",
@@ -101459,6 +101361,104 @@
                               "fontWeight": "normal"
                             }
                           ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "APbxG",
+                      "name": "Noticia",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 10,
+                          "id": "DZksa",
+                          "name": "Miniatura",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "olek_bznv_photo",
+                            "link": "https://unsplash.com/@olek_bznv_photo",
+                            "author": "Olek Buzunov"
+                          },
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1790339653981-2fca230c2290?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTIwMDg3NjZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "cover"
+                          },
+                          "width": 84,
+                          "height": 64
+                        },
+                        {
+                          "type": "frame",
+                          "id": "sbMlc",
+                          "name": "Texto",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "W4Wgbw",
+                              "name": "Título",
+                              "fill": "#083b66",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Concluye el diplomado de Gestión Ambiental Costera",
+                              "lineHeight": 1.35,
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "lgPwj",
+                              "name": "Fecha",
+                              "fill": "#5b7489",
+                              "content": "14 ago 2026",
+                              "fontFamily": "Geist",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "p5rBSe",
+                      "name": "Ver todas",
+                      "gap": 8,
+                      "padding": [
+                        6,
+                        0,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "iLucg",
+                          "name": "Texto",
+                          "fill": "$deep",
+                          "content": "Ver todas las noticias",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "NeiEL",
+                          "name": "Flecha",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$deep"
                         }
                       ]
                     }
